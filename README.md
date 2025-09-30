@@ -17,26 +17,41 @@ Este repositorio contiene una **calculadora de IRPF (Impuesto sobre la Renta de 
 - Lista de documentos necesarios
 - Preguntas frecuentes
 
-## 🚀 Uso Rápido
+## 🚀 Inicio Rápido
+
+### ⚡ Primera Vez Aquí - Empieza por:
+
+1. **[INICIO_RAPIDO.md](INICIO_RAPIDO.md)** - Tu guía de 2 minutos
+2. **[RESPUESTA_RAPIDA.md](RESPUESTA_RAPIDA.md)** - Respuestas directas a tus preguntas
+3. **[RESPUESTA_COMPLETA.md](RESPUESTA_COMPLETA.md)** - Análisis completo y detallado
+
+### 💻 Uso Inmediato
 
 ```bash
-# Ejecutar ejemplo con datos de muestra
+# Ver ejemplo con datos de muestra
 python3 calculadora_irpf.py
+
+# Calcular con TUS datos (recomendado)
+# 1. Edita mi_calculo_personalizado.py con tus números
+# 2. Ejecuta:
+python3 mi_calculo_personalizado.py
 ```
 
 ## 📖 Para tu Caso Específico
 
-Si tienes:
-- Facturas como autónomo (actividad económica)
-- Un salario de 500€/mes neto (retención 20%)
-- Dudas sobre qué retención aplicar (15% vs 30%)
+**Tienes facturas como autónomo + salario de 500€/mes + dudas sobre retenciones?**
 
-**Lee la [Guía Completa](GUIA_IRPF.md)** donde encontrarás:
-- ✅ Análisis de tu situación
-- ✅ Recomendaciones sobre la retención óptima
-- ✅ Impacto de subir la retención al 30%
-- ✅ Alternativas (pagos fraccionados, modelo 130)
+👉 **Lee primero: [RESPUESTA_COMPLETA.md](RESPUESTA_COMPLETA.md)**
+
+Este documento responde específicamente:
+- ✅ Resultado aproximado de tu declaración (a pagar o devolver)
+- ✅ Si tiene sentido aumentar retención al 30%
+- ✅ Impacto real de esa subida
+- ✅ Alternativas (modelo 130, retención progresiva)
 - ✅ Documentos que necesitas recopilar
+- ✅ Acciones inmediatas recomendadas
+
+**O si tienes prisa: [RESPUESTA_RAPIDA.md](RESPUESTA_RAPIDA.md)** - Respuestas en 5 minutos
 
 ## 🎯 Características
 
@@ -77,6 +92,13 @@ Esta calculadora proporciona **estimaciones aproximadas** para planificación. P
 
 ## 📚 Recursos Adicionales
 
+### Documentación Completa
+- **[INICIO_RAPIDO.md](INICIO_RAPIDO.md)** - Guía de 2 minutos para empezar
+- **[RESPUESTA_RAPIDA.md](RESPUESTA_RAPIDA.md)** - Respuestas directas (5 min)
+- **[RESPUESTA_COMPLETA.md](RESPUESTA_COMPLETA.md)** - Análisis detallado completo (30 min)
+- **[GUIA_IRPF.md](GUIA_IRPF.md)** - Guía técnica del sistema IRPF (45 min)
+
+### Enlaces Oficiales
 - [Agencia Tributaria (AEAT)](https://sede.agenciatributaria.gob.es/)
 - [Modelo 130 - Pagos Fraccionados](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-ayuda-presentacion/irpf-2023/6-modelos-pagos-cuenta/6_2-modelo-130.html)
 - [Renta Web](https://sede.agenciatributaria.gob.es/Sede/procedimientoini/GI26.shtml)
